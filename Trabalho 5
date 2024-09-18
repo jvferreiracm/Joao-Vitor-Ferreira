@@ -8,7 +8,7 @@ Exemplo de Estrutura de repetição:
 for i in range(1, 6):
     print(f"Número: {i}")
 
-Exemplo de Tomada de Decisão:
+Exemplo de Estrutura de Tomada de Decisão:
 # Exemplo de estrutura de decisão 'if-elif-else'
 idade = int(input("Digite sua idade: "))
 
