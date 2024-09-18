@@ -1,0 +1,23 @@
+Utilizando a linguagem de programação Python, implemente um ou mais códigos de exemplo dos seguintes elementos:
+– Uma estrutura de repetição
+– Uma estrutura de tomada de decisão
+
+
+Exemplo de Estrutura de repetição:
+# Exemplo de loop 'for' que imprime números de 1 a 5
+for i in range(1, 6):
+    print(f"Número: {i}")
+
+Exemplo de Tomada de Decisão:
+# Exemplo de estrutura de decisão 'if-elif-else'
+idade = int(input("Digite sua idade: "))
+
+if idade < 13:
+    print("Você é uma criança.")
+elif idade < 20:
+    print("Você é um adolescente.")
+elif idade < 65:
+    print("Você é um adulto.")
+else:
+    print("Você é um idoso.")
+
