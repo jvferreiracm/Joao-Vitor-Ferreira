@@ -14,3 +14,20 @@ array = [64, 34, 25, 12, 22, 11, 90]
 sorted_array = bubble_sort(array)
 print("Array ordenado:", sorted_array)
 
+2) def imprimir_vogais(texto):
+    # Definindo as vogais
+    vogais = "aeiouAEIOU"
+    # Inicializando uma variável para armazenar as vogais encontradas
+    vogais_encontradas = ""
+
+    # Percorrendo cada caractere no texto
+    for char in texto:
+        if char in vogais:
+            vogais_encontradas += char
+
+    return vogais_encontradas
+
+# Exemplo de uso
+palavra = "Olá, mundo!"
+resultado = imprimir_vogais(palavra)
+print("Vogais encontradas:", resultado)
